@@ -28,7 +28,7 @@ export const cursos: Curso[] = [
     precio: "USD 2.800",
     descripcion: "Aprende francés en París con profesores nativos y experiencias culturales únicas.",
     imagen: "/par-s-francia-torre-eiffel-ciudad.jpg",
-    url:'/destino-irlanda',
+    url:'/destino-francia',
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ export const cursos: Curso[] = [
     precio: "USD 6.500",
     descripcion: "Combina estudio de inglés con trabajo en el paraíso mediterráneo de Malta.",
     imagen: "/images/valletta-malta.jpg",
-    url:'/destino-irlanda',
+    url:'/destino-malta',
   },
   {
     id: 5,
@@ -68,7 +68,7 @@ export const cursos: Curso[] = [
     precio: "USD 4.028",
     descripcion: "Un máster especializado que te permitirá liderar y desarrollar la estrategia de contenidos de una marca o empresa.",
     imagen: "/images/berlin-alemania.jpg",
-    url:'/destino-irlanda',
+    url:'/destino-espana',
   },
   {
     id: 7,
@@ -78,7 +78,7 @@ export const cursos: Curso[] = [
     precio: "USD 3.290",
     descripcion: "FP en gastronomía y artes culinarias en España, cuna de la cocina mediterránea.",
     imagen: "/images/valencia-espana.jpg",
-    url:'/destino-irlanda',
+    url:'/destino-espana',
   },
   {
     id: 8,
@@ -88,7 +88,7 @@ export const cursos: Curso[] = [
     precio: "USD 3.720",
     descripcion: "Aprende inglés con profesores nativos y experiencias culturales únicas.",
     imagen: "/images/sliema-malta.jpg",
-    url:'/destino-irlanda',
+    url:'/destino-malta',
   },
   {
     id: 9,
@@ -98,7 +98,7 @@ export const cursos: Curso[] = [
     precio: "USD 3.900",
     descripcion: "Experiencia cultural completa en UK con clases de inglés y actividades turísticas.",
     imagen: "/images/londres-uk.jpg",
-    url:'/destino-irlanda',
+    url:'/destino-uk',
   },
   {
     id: 10,
@@ -109,6 +109,16 @@ export const cursos: Curso[] = [
     descripcion: "Programa flexible para explorar diferentes destinos y encontrar tu lugar ideal.",
     imagen: "/images/cork-irlanda.jpg",
     url:'/destino-irlanda',
+  },
+  {
+    id: 10,
+    nombre: "Curso Introductorio Multidestino",
+    tipo: "Otros",
+    destino: "Francia",
+    precio: "USD 2.500",
+    descripcion: "Programa flexible para explorar diferentes destinos y encontrar tu lugar ideal.",
+    imagen: "/images/cork-irlanda.jpg",
+    url:'/destino-francia',
   },
 ]
 

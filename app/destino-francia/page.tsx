@@ -26,6 +26,19 @@ export default function DestinoFranciaPage() {
     initScrollReveal()
   }, [])
 
+  useEffect(() => {
+  const scriptId = "hubspot-form-script"
+
+  if (!document.getElementById(scriptId)) {
+    const script = document.createElement("script")
+    script.id = scriptId
+    script.src = "https://js-eu1.hsforms.net/forms/embed/26265942.js"
+    script.defer = true
+
+    document.body.appendChild(script)
+  }
+}, [])
+
   return (
     <>
       <Navbar />
@@ -146,10 +159,20 @@ export default function DestinoFranciaPage() {
           </div>
         </section>
 
-        {/* Programs */}
-        <section className="py-16 md:py-24">
-          <ServiciosFrancia />
-        </section>
+         <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
+        Solicitá tu cotización
+      </h1>
+
+        <section className="min-h-[60vh] py-16">
+        <div className="container mx-auto max-w-2xl px-4">
+          <div
+  className="hs-form-frame"
+  data-region="eu1"
+  data-form-id="2b7f66e1-e605-452e-ae4c-fb36a5ca6fff"
+  data-portal-id="26265942"
+/>
+        </div>
+      </section>
       </main>
       <Footer />
     </>

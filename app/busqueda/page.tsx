@@ -292,7 +292,7 @@ function BusquedaContent() {
                           <div className="flex gap-3 w-full sm:w-auto">
                             <button
   onClick={() => window.open(curso.url, "_blank")}
-  className="flex-1 sm:flex-none px-6 py-3 bg-primary-vio text-white font-semibold rounded-full hover:bg-primary-vio/90 transition-colors"
+  className="flex-1 sm:flex-none px-6 py-3 bg-primary-vio text-white font-semibold rounded-full hover:bg-primary-vio/90 transition-colors cursor-pointer"
 >
   Pedir cotización
 </button>
