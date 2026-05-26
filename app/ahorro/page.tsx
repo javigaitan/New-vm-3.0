@@ -98,7 +98,7 @@ export default function AhorroPage() {
 
                       <div className="prose prose-sm md:prose-base max-w-none">
                         {program.description.split("\n\n").map((paragraph, i) => (
-                          <p key={i} className="text-text/80 leading-relaxed">
+                          <p key={i} className="text-xl leading-relaxed">
                             {paragraph}
                           </p>
                         ))}

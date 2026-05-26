@@ -46,8 +46,8 @@ export default function DestinoMaltaPage() {
       <WhatsAppButton />
       <main>
         {/* Banner Section */}
-        <section className="relative h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[800px] overflow-hidden rounded-b-[50px]">
-          <img
+<section className="relative h-[300px] md:h-[380px] lg:h-[420px] xl:h-[600px] overflow-hidden rounded-b-[50px]">
+            <img
             src="/malta-scenic-landscape-banner.jpg"
             alt="Banner de Malta"
             className="h-full w-full object-cover rounded-b-[50px]"

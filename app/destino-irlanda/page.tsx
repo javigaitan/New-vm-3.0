@@ -69,8 +69,8 @@ export default function DestinoIrlandaPage() {
       <Navbar />
       <WhatsAppButton />
       <main>
-        <section className="relative h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[800px] overflow-hidden rounded-b-[50px]">
-          <img
+<section className="relative h-[300px] md:h-[380px] lg:h-[420px] xl:h-[600px] overflow-hidden rounded-b-[50px]">
+            <img
             src="/images/ireland-banner-landscape.jpg"
             alt="Paisaje impactante de Irlanda"
             className="h-full w-full object-cover rounded-b-[50px]"

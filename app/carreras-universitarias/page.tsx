@@ -77,7 +77,7 @@ export default function CarrerasUniversitariasPage() {
             {/* Image section */}
             <div className="w-full lg:w-1/2 p-4 flex justify-center">
               <img
-                src="/images/universidad-a696efdd.png"
+                src="/images/posgradosgime-mundo.png"
                 alt="Carreras Universitarias"
                 className="w-full h-auto rounded-lg"
               />

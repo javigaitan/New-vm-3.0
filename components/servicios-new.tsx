@@ -17,7 +17,7 @@ const services = [
   },
   {
     title: "Posgrados y Carreras Universitarias",
-    image: "/images/posgrados.png",
+    image: "/images/posgradosgime.jpg",
     href: "/carreras-universitarias",
   },
 ]

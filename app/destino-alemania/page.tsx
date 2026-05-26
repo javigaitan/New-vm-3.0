@@ -45,8 +45,8 @@ export default function DestinoAlemaniaPage() {
       <WhatsAppButton />
       <main>
         {/* Banner Section */}
-        <section className="relative h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[800px] w-full rounded-b-[50px] overflow-hidden">
-          <div className="absolute inset-0 w-full h-full">
+<section className="relative h-[300px] md:h-[380px] lg:h-[420px] xl:h-[600px] overflow-hidden rounded-b-[50px]">
+            <div className="absolute inset-0 w-full h-full">
             <img
               src="/alemania-scenic-banner.jpg"
               alt="Banner de Alemania"

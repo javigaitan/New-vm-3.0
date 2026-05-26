@@ -133,24 +133,22 @@ export default function VMHousePage() {
                   {/* Testimonial 1 */}
                   <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-primary-turq">
                     <p className="text-foreground/90 italic mb-3 leading-relaxed">
-                      "VM House fue el mejor lugar para comenzar mi aventura en Dublín. Me sentí como en casa desde el
-                      primer día. Las instalaciones son impecables y el ambiente es muy cálido."
+                      "Mi nombre es Leandro, tengo 36 años y soy de Argentina. Elegí la residencia Vaga Mundo al iniciar el desafío de empezar de cero en otro país; buscaba la seguridad y tranquilidad de encontrarme con personas en mi misma situación, y eso fue exactamente lo que hallé: un grupo maravilloso donde el apoyo mutuo hizo que todo el proceso fuera más fácil, tanto en lo afectivo como en la gestión de trámites."
                     </p>
                     <div className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-primary-turq rounded-full"></div>
-                      <p className="text-primary-vio font-semibold">María G. - Argentina</p>
+                      <p className="text-primary-vio font-semibold">Leandro Horacio Galasso - Argentina</p>
                     </div>
                   </div>
 
                   {/* Testimonial 2 */}
                   <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-secondari-verde">
                     <p className="text-foreground/90 italic mb-3 leading-relaxed">
-                      "La ubicación es perfecta, el Luas está a 2 minutos y puedes llegar al centro en poco tiempo.
-                      Además, conocí personas increíbles de todo el mundo. ¡Una experiencia inolvidable!"
+                      "Soy Iván Barreras, de Argentina, y llegué a la residencia por recomendación de un amigo. Alojarme aquí fue clave para interiorizarme sobre el funcionamiento del país y recibir orientación en mis primeros trámites. Lo que más destaco es la buena onda que se percibe y la comodidad que ofrece para las primeras semanas de estadía. Recomiendo Vaga Mundo porque es un lugar confortable donde siempre encontrás gente dispuesta a ayudarte a empezar de la mejor forma posible en un destino desconocido."
                     </p>
                     <div className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-secondari-verde rounded-full"></div>
-                      <p className="text-primary-vio font-semibold">Carlos R. - México</p>
+                      <p className="text-primary-vio font-semibold">Iván Emanuel Barreras - Argentina</p>
                     </div>
                   </div>
 
@@ -166,17 +164,7 @@ export default function VMHousePage() {
                     </div>
                   </div>
 
-                  {/* Testimonial 4 */}
-                  <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-primary-vio">
-                    <p className="text-foreground/90 italic mb-3 leading-relaxed">
-                      "Me encantó la limpieza y el orden de la residencia. Todo está pensado para que te sientas cómodo.
-                      El equipo de Vaga-Mundo siempre estuvo disponible para ayudarnos."
-                    </p>
-                    <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-primary-vio rounded-full"></div>
-                      <p className="text-primary-vio font-semibold">Ana S. - Colombia</p>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>

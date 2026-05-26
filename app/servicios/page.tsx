@@ -34,7 +34,7 @@ export default function ServiciosPage() {
       description:
         "Un gran miedo que enfrentamos al momento de vivir una experiencia en el exterior es el saber dónde nos alojaremos.\n\nPor eso, en Vaga-Mundo contamos con alojamiento propio en Dublín, Irlanda para que nuestros estudiantes se sientan como en casa, una vez arribados a la isla verde.\n\nAsimismo, tanto en Irlanda como en otros destinos del mundo tenemos convenios con partners como pueden ser alojamientos estudiantiles, host family o las mismas escuelas de inglés, para que nuestros estudiantes se sientan cómodos.",
       whatsappText: "¡Hola, Vaga-Mundo! Quiero tener más info sobre alojamientos!",
-      image: "/images/residencia-20vm-202024.png",
+      image: "/images/captura-20de-20pantalla-202025-12-17-20a-20la-28s-29-2010.png",
       imagePosition: "right",
     },
     {
@@ -103,7 +103,7 @@ export default function ServiciosPage() {
 
                         <div className="prose prose-sm md:prose-base max-w-none">
                           {service.description.split("\n\n").map((paragraph, i) => (
-                            <p key={i} className="text-text/80 leading-relaxed">
+                            <p key={i} className="text-xl leading-relaxed">
                               {paragraph}
                             </p>
                           ))}
