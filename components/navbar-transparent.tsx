@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
+import { useRouter } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -8,7 +9,9 @@ export function NavbarTransparent() {
   const [showMenu, setShowMenu] = useState(false)
   const [isDropdownOpen, setDropdownOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const dropdownRef = useRef<HTMLDivElement>(null)
+const dropdownRef = useRef<HTMLLIElement>(null)
+const router = useRouter()
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,11 +34,14 @@ export function NavbarTransparent() {
     }
   }, [])
 
-  const handleLinkClick = () => {
-    setDropdownOpen(false)
-    setShowMenu(false)
-  }
-
+ 
+const handleLinkClick = (href: string, e: React.MouseEvent | React.TouchEvent) => {
+  e.preventDefault()
+  e.stopPropagation()
+  setDropdownOpen(false)
+  setShowMenu(false)
+  router.push(href)
+}
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen)
   }
@@ -96,110 +102,74 @@ export function NavbarTransparent() {
 
               {isDropdownOpen && (
                 <div className="absolute left-0 mt-1 w-80 bg-white border border-gray-300 rounded-lg shadow-lg z-[100]">
-                  <Link
-                    href="/destino-irlanda"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 rounded-t-lg hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/ireland-landscape.jpg"
-                      alt="Irlanda"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Irlanda</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-malta"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/malta-coastline.jpg"
-                      alt="Malta"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Malta</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-espana"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/spain-barcelona.jpg"
-                      alt="España"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">España</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-uk"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/uk-landscape.jpg"
-                      alt="UK"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">UK</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-alemania"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/germany-landscape.jpg"
-                      alt="Alemania"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Alemania</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-francia"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/france-landscape.jpg"
-                      alt="Francia"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Francia</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/contactanos"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 rounded-b-lg hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/world-travel.jpg"
-                      alt="Otros Destinos"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Otros Destinos</span>
-                  </Link>
+                  <button
+  onTouchEnd={(e) => handleLinkClick("/destino-irlanda", e)}
+  onClick={(e) => handleLinkClick("/destino-irlanda", e)}
+  className="flex items-center px-4 py-2 rounded-t-lg hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/ireland-landscape.jpg" alt="Irlanda" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Irlanda</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-malta", e)}
+  onClick={(e) => handleLinkClick("/destino-malta", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/malta-coastline.jpg" alt="Malta" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Malta</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-espana", e)}
+  onClick={(e) => handleLinkClick("/destino-espana", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/spain-barcelona.jpg" alt="España" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">España</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-uk", e)}
+  onClick={(e) => handleLinkClick("/destino-uk", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/uk-landscape.jpg" alt="UK" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">UK</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-alemania", e)}
+  onClick={(e) => handleLinkClick("/destino-alemania", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/germany-landscape.jpg" alt="Alemania" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Alemania</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-francia", e)}
+  onClick={(e) => handleLinkClick("/destino-francia", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/france-landscape.jpg" alt="Francia" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Francia</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/contactanos", e)}
+  onClick={(e) => handleLinkClick("/contactanos", e)}
+  className="flex items-center px-4 py-2 rounded-b-lg hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/world-travel.jpg" alt="Otros Destinos" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Otros Destinos</span>
+</button>
                 </div>
               )}
             </li>
@@ -342,7 +312,7 @@ export function NavbarTransparent() {
               </Link>
             </li>
 
-            <li>
+            <li className="flex flex-col items-center w-full">
               <button
                 onClick={toggleDropdown}
                 className="text-white text-lg focus:outline-none hover:text-secondary-green transition-colors flex items-center bg-transparent"
@@ -359,111 +329,77 @@ export function NavbarTransparent() {
               </button>
 
               {isDropdownOpen && (
-                <div className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-80 bg-white border border-gray-300 rounded-lg shadow-lg z-[100]">
-                  <Link
-                    href="/destino-irlanda"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 rounded-t-lg hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/ireland-landscape.jpg"
-                      alt="Irlanda"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Irlanda</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-malta"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/malta-coastline.jpg"
-                      alt="Malta"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Malta</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-espana"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/spain-barcelona.jpg"
-                      alt="España"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">España</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-uk"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/uk-landscape.jpg"
-                      alt="UK"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">UK</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-alemania"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/germany-landscape.jpg"
-                      alt="Alemania"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Alemania</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/destino-francia"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/france-landscape.jpg"
-                      alt="Francia"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Francia</span>
-                  </Link>
-                  <hr className="border-gray-300" />
-                  <Link
-                    href="/contactanos"
-                    onClick={handleLinkClick}
-                    className="flex items-center px-4 py-2 rounded-b-lg hover:bg-gray-100"
-                  >
-                    <Image
-                      src="/world-travel.jpg"
-                      alt="Otros Destinos"
-                      width={96}
-                      height={72}
-                      className="w-24 h-18 object-cover rounded-lg mr-3"
-                    />
-                    <span className="text-primary-vio font-semibold">Otros Destinos</span>
-                  </Link>
+<div className="relative mt-4 w-full max-w-[320px] bg-white border border-gray-300 rounded-lg shadow-lg z-[100]">
+                    <button
+  onTouchEnd={(e) => handleLinkClick("/destino-irlanda", e)}
+  onClick={(e) => handleLinkClick("/destino-irlanda", e)}
+  className="flex items-center px-4 py-2 rounded-t-lg hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/ireland-landscape.jpg" alt="Irlanda" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Irlanda</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-malta", e)}
+  onClick={(e) => handleLinkClick("/destino-malta", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/malta-coastline.jpg" alt="Malta" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Malta</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-espana", e)}
+  onClick={(e) => handleLinkClick("/destino-espana", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/spain-barcelona.jpg" alt="España" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">España</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-uk", e)}
+  onClick={(e) => handleLinkClick("/destino-uk", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/uk-landscape.jpg" alt="UK" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">UK</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-alemania", e)}
+  onClick={(e) => handleLinkClick("/destino-alemania", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/germany-landscape.jpg" alt="Alemania" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Alemania</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/destino-francia", e)}
+  onClick={(e) => handleLinkClick("/destino-francia", e)}
+  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/france-landscape.jpg" alt="Francia" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Francia</span>
+</button>
+<hr className="border-gray-300" />
+
+<button
+  onTouchEnd={(e) => handleLinkClick("/contactanos", e)}
+  onClick={(e) => handleLinkClick("/contactanos", e)}
+  className="flex items-center px-4 py-2 rounded-b-lg hover:bg-gray-100 cursor-pointer w-full text-left bg-white"
+>
+  <Image src="/world-travel.jpg" alt="Otros Destinos" width={96} height={72} className="w-24 h-18 object-cover rounded-lg mr-3" />
+  <span className="text-primary-vio font-semibold">Otros Destinos</span>
+</button>
+
+                
                 </div>
               )}
             </li>

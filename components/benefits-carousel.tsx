@@ -138,7 +138,7 @@ export function BenefitsCarousel({
       {/* Carousel container */}
       <div
         ref={containerRef}
-        className="relative mx-auto h-[500px] w-full max-w-5xl overflow-hidden px-4"
+        className="relative mx-auto h-[600px] w-full max-w-6xl overflow-hidden px-4"
       >
         <motion.div
           className="absolute inset-0 flex items-center justify-center"
@@ -151,7 +151,7 @@ export function BenefitsCarousel({
         >
           {/* Previous card */}
           <motion.div
-            className="absolute left-1/2 -translate-x-1/2 w-[280px] md:w-[320px]"
+            className="absolute left-1/2 -translate-x-1/2 w-w-[320px] md:w-[420px]"
             initial={false}
             animate={getCardStyle("prev")}
           >
@@ -160,7 +160,7 @@ export function BenefitsCarousel({
 
           {/* Current card */}
           <motion.div
-            className="absolute left-1/2 -translate-x-1/2 w-[280px] md:w-[320px]"
+            className="absolute left-1/2 -translate-x-1/2 w-w-[320px] md:w-[420px]"
             initial={false}
             animate={getCardStyle("current")}
           >
@@ -169,7 +169,7 @@ export function BenefitsCarousel({
 
           {/* Next card */}
           <motion.div
-            className="absolute left-1/2 -translate-x-1/2 w-[280px] md:w-[320px]"
+            className="absolute left-1/2 -translate-x-1/2 w-w-[320px] md:w-[420px]"
             initial={false}
             animate={getCardStyle("next")}
           >

@@ -54,7 +54,7 @@ export function ServiciosNew() {
             key={index}
             className="service-card w-full sm:w-1/2 lg:w-1/3 p-4 opacity-0 translate-y-12 transition-all duration-1000 ease-in-out"
           >
-            <div className="relative h-[300px] sm:h-[350px] lg:h-[400px]">
+            <div className="relative h-[250px] sm:h-[230px] lg:h-[320px]">
               <Image
                 src={service.image || "/placeholder.svg"}
                 alt={service.title}

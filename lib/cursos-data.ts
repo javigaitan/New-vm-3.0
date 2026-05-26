@@ -58,7 +58,7 @@ export const cursos: Curso[] = [
     precio: "USD 5.800",
     descripcion: "En este máster adquieres una visión global para definir las estrategias y desarrollar las acciones de marketing y aprendes de forma práctica cómo poner en marcha tu plan de marketing digital para llegar así a tu público objetivo, dominando las técnicas, herramientas y competencias actuales del entorno digital.",
     imagen: "/images/barcelona-espana.jpg",
-    url:'/destino-irlanda',
+    url:'/destino-espana',
   },
   {
     id: 6,

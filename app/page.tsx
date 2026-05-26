@@ -24,7 +24,7 @@ export default function HomePage() {
         {/* <VMFacts /> 
         {/* <GoogleReviews /> */}
         {/* <Blogs />*/}
-<BenefitsCarousel benefits={benefits} />      
+<BenefitsCarousel benefits={benefits} />    
   <Partners />
       </main>
       <Footer />
