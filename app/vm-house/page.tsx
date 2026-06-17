@@ -12,13 +12,16 @@ export default function VMHousePage() {
   const [currentPage, setCurrentPage] = useState(0)
 
   const images = [
-    "/residencia-5.jpeg",
+   "/Image 2025-06-29 at 00.56.47-3.jpeg",
+       "/residencia-4.jpeg",
+           "/residencia-8.jpeg",
+
+
     "/residencia-6.jpeg",
-    "/residencia-7.jpeg",
-    "/residencia-8.jpeg",
+    "/Image 2025-06-29 at 00.56.47.jpeg",
     "/residencia-1.jpeg",
-    "/residencia-2.jpeg",
-    "/residencia-4.jpeg",
+    "/Image 2025-06-29 at 13.26.05 (1).jpeg",
+    "/Image 2025-06-29 at 00.56.48-2.jpeg"
   ]
 
   const imagesPerPage = 3

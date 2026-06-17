@@ -143,7 +143,7 @@ export default function DestinoIrlandaPage() {
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Su ubicación geográfica te permitirá viajar y conocer otros países de Europa en cuestión de horas
                       y de forma económica.
                     </p>
@@ -151,7 +151,7 @@ export default function DestinoIrlandaPage() {
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Es un destino multicultural con su población proveniente de todas partes del mundo y con un fuerte
                       legado vikingo.
                     </p>
@@ -159,14 +159,14 @@ export default function DestinoIrlandaPage() {
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       El inglés es su lengua oficial, por lo que estarás en contacto con el idioma todo el tiempo.
                     </p>
                   </div>
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Tiene buena calidad de vida, siendo uno de los países más seguros del mundo y con una economía en
                       crecimiento.
                     </p>

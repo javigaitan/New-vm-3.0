@@ -105,32 +105,7 @@ function BusquedaContent() {
                 </div>
               </div>
 
-              {/* Mes */}
-              <div className="flex items-center flex-1 border-r border-gray-200 px-4">
-                <Calendar className="w-5 h-5 text-primary-vio mr-3" />
-                <div className="flex flex-col">
-                  <label className="text-xs text-gray-500 font-medium">Mes</label>
-                  <select
-                    value={mes}
-                    onChange={(e) => setMes(e.target.value)}
-                    className="bg-transparent text-primary-vio font-medium focus:outline-none cursor-pointer appearance-none pr-6"
-                  >
-                    <option value="">Cualquier mes</option>
-                    <option value="enero">Enero</option>
-                    <option value="febrero">Febrero</option>
-                    <option value="marzo">Marzo</option>
-                    <option value="abril">Abril</option>
-                    <option value="mayo">Mayo</option>
-                    <option value="junio">Junio</option>
-                    <option value="julio">Julio</option>
-                    <option value="agosto">Agosto</option>
-                    <option value="septiembre">Septiembre</option>
-                    <option value="octubre">Octubre</option>
-                    <option value="noviembre">Noviembre</option>
-                    <option value="diciembre">Diciembre</option>
-                  </select>
-                </div>
-              </div>
+            
 
               {/* Qué estás buscando */}
               <div className="flex items-center flex-1 px-4">
@@ -182,29 +157,7 @@ function BusquedaContent() {
                 </select>
               </div>
 
-              {/* Mes */}
-              <div className="flex items-center border border-gray-200 rounded-full px-4 py-3">
-                <Calendar className="w-5 h-5 text-primary-vio mr-3" />
-                <select
-                  value={mes}
-                  onChange={(e) => setMes(e.target.value)}
-                  className="bg-transparent text-primary-vio font-medium focus:outline-none cursor-pointer appearance-none flex-1"
-                >
-                  <option value="">Cualquier mes</option>
-                  <option value="enero">Enero</option>
-                  <option value="febrero">Febrero</option>
-                  <option value="marzo">Marzo</option>
-                  <option value="abril">Abril</option>
-                  <option value="mayo">Mayo</option>
-                  <option value="junio">Junio</option>
-                  <option value="julio">Julio</option>
-                  <option value="agosto">Agosto</option>
-                  <option value="septiembre">Septiembre</option>
-                  <option value="octubre">Octubre</option>
-                  <option value="noviembre">Noviembre</option>
-                  <option value="diciembre">Diciembre</option>
-                </select>
-              </div>
+              
 
               {/* Qué estás buscando */}
               <div className="flex items-center border border-gray-200 rounded-full px-4 py-3">

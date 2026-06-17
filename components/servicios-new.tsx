@@ -7,17 +7,17 @@ import Image from "next/image"
 const services = [
   {
     title: "Cursos de Idiomas",
-    image: "/images/curso-20idioma.png",
+    image: "/images/IMG_4486.png",
     href: "/curso-de-idiomas",
   },
   {
     title: "Estudia y Trabaja en el Exterior",
-    image: "/images/estudio-20y-20trabajo-20en-20el-20exterior.png",
+    image: "/images/Dublin AY Students in Lounge(1).JPG",
     href: "/work&study",
   },
   {
     title: "Posgrados y Carreras Universitarias",
-    image: "/images/posgradosgime.jpg",
+    image: "/images/24.jpg",
     href: "/carreras-universitarias",
   },
 ]

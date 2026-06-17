@@ -77,7 +77,7 @@ export default function CarrerasUniversitariasPage() {
             {/* Image section */}
             <div className="w-full lg:w-1/2 p-4 flex justify-center">
               <img
-                src="/images/posgradosgime-mundo.png"
+                src="/images/24.jpg"
                 alt="Carreras Universitarias"
                 className="w-full h-auto rounded-lg"
               />
@@ -125,7 +125,7 @@ export default function CarrerasUniversitariasPage() {
               <div className="relative bg-cover flex justify-center flex-col rounded-lg">
                 <div className="relative">
                   <img
-                    src="/images/curso-20idioma-265fb314.png"
+                    src="/images/IMG_4486.png"
                     alt="Cursos de Idiomas"
                     className="w-full h-auto rounded-lg mx-auto"
                   />
@@ -145,7 +145,7 @@ export default function CarrerasUniversitariasPage() {
               <div className="relative bg-cover flex justify-center flex-col rounded-lg">
                 <div className="relative">
                   <img
-                    src="/images/estudio-20y-20trabajo-20en-20el-20exterior-65bda6b4.png"
+                    src="/images/Dublin AY Students in Lounge(1).JPG"
                     alt="Estudia y Trabaja"
                     className="w-full h-auto rounded-lg mx-auto"
                   />
