@@ -24,12 +24,12 @@ export function HeroBanner() {
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 pt-20">
         {/* Título principal */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center mb-4 drop-shadow-lg">
-          El mundo te espera
+          Tu futuro internacional empieza hoy
         </h1>
 
         {/* Subtítulo */}
         <p className="text-xl md:text-2xl lg:text-3xl text-white text-center mb-12 drop-shadow-md font-light">
-          {"Viví, estudiá y trabajá en el exterior"}
+          {"Encuentra aquí el destino ideal para tu experiencia de estudio en el extranjero"}
         </p>
 
         {/* Search Form */}

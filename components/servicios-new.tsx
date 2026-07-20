@@ -45,7 +45,7 @@ export function ServiciosNew() {
   return (
     <div className="container mx-auto px-4 pt-10 pb-20">
       <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-        ¿Qué experiencias ofrecemos?
+Descubre los programas de formación internacional y servicios complementarios que tiene Vaga Mundo para ti.
       </h1>
 
       <div className="flex flex-wrap justify-center mt-8 gap-4 lg:gap-0">

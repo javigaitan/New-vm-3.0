@@ -195,8 +195,9 @@ export default function DestinoIrlandaPage() {
           <ServiciosNew />
         </section>*/}
         <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-        Solicitá tu cotización
-      </h1>
+Armá tu plan en Irlanda hoy      </h1>
+<h2 className="text-2xl md:text-3xl lg:text-3xl  leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
+Completá tus datos y recibí tu presupuesto personalizado en menos de 24 horas    </h2>
 
         <section className="min-h-[60vh] py-16">
         <div className="container mx-auto max-w-2xl px-4">

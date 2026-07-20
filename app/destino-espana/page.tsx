@@ -54,8 +54,9 @@ export default function DestinoEspanaPage() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
           <div className="absolute bottom-16 left-4 md:bottom-24 md:left-8 lg:bottom-32 lg:left-12">
             <h1 className="banner-title text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white">
+              Europa en tu idioma:
               <span className="inline-flex items-center gap-3">
-                {"¡Bienvenidos a España"}
+                {"Estudia y trabaja en España"}
                 <img
                   src="/images/BanderaEspana.svg"
                   alt="Bandera de España"
@@ -63,7 +64,6 @@ export default function DestinoEspanaPage() {
                 />
               </span>
               <br />
-              la maravilla Ibérica!
             </h1>
           </div>
         </section>
@@ -117,7 +117,7 @@ export default function DestinoEspanaPage() {
         <section className="py-16 md:py-24 bg-primary-vio">
           <div className="container mx-auto px-4">
             <h2 className="mb-12 text-3xl font-bold text-white md:text-5xl text-center">
-              ¿Por qué es el destino más elegido?
+¿Por qué estudiar en España?
             </h2>
 
             <div className="flex flex-col lg:flex-row gap-12 items-center max-w-6xl mx-auto">
@@ -125,35 +125,32 @@ export default function DestinoEspanaPage() {
               <div className="w-full lg:w-1/2">
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
-                    <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
-                      España se encuentra en un punto privilegiado dentro de Europa, con un clima mediterráneo agradable
-                      y una diversidad cultural abierta, ideal para latinos que buscan un entorno cálido y acogedor.
-                    </p>
-                  </div>
+  <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
+  <p className="text-white leading-relaxed">
+    <strong>Sin barreras de idioma:</strong> Al ser tu lengua nativa, la integración es inmediata. Sentite local desde el primer momento y potenciá tu rendimiento académico sin complicaciones de comunicación.
+  </p>
+</div>
 
-                  <div className="flex gap-4 items-start">
-                    <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
-                      Con el español como lengua oficial, adaptarse a la vida en España es mucho más fácil para
-                      estudiantes latinos, lo que mejora tanto la experiencia social como académica desde el primer día.
-                    </p>
-                  </div>
+<div className="flex gap-4 items-start">
+  <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
+  <p className="text-white leading-relaxed">
+    <strong>Excelente clima:</strong> Situada en una posición estratégica dentro de Europa, España destaca por su agradable clima mediterráneo y una cultura abierta y diversa, convirtiéndose en el destino ideal para los latinoamericanos que buscan un ambiente cálido y hospitalario.
+  </p>
+</div>
 
-                  <div className="flex gap-4 items-start">
-                    <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
-                      El país cuenta con una economía estable en comparación con muchas regiones de América Latina, lo
-                      que ofrece una calidad de vida excepcional, y un entorno seguro.
-                    </p>
-                  </div>
+<div className="flex gap-4 items-start">
+  <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
+  <p className="text-white leading-relaxed">
+    <strong>Excelencia académica global:</strong> Formate en universidades de prestigio mundial que le darán un peso indiscutible a tu currículum.
+  </p>
+</div>
 
-                  <div className="flex gap-4 items-start">
-                    <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
-                      Las universidades en España gozan de reconocimiento mundial por su excelencia académica.
-                    </p>
-                  </div>
+<div className="flex gap-4 items-start">
+  <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
+  <p className="text-white leading-relaxed">
+    <strong>Tu trampolín a Europa:</strong> Ubicación estratégica y excelente conectividad para que viajes por todo el continente en tus tiempos libres.
+  </p>
+</div>
                 </div>
               </div>
 
@@ -174,8 +171,9 @@ export default function DestinoEspanaPage() {
         </section>
 
         <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-        Solicitá tu cotización
-      </h1>
+Armá tu plan a España Hoy      </h1>
+<h2 className="text-2xl md:text-3xl lg:text-3xl  leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
+Completá tus datos y recibe tu presupuesto personalizado    </h2>
 
         <section className="min-h-[60vh] py-16">
         <div className="container mx-auto max-w-2xl px-4">

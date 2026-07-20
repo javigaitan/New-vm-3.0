@@ -120,7 +120,7 @@ export default function DestinoMaltaPage() {
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Malta es un archipiélago con 3 islas principales ubicado al sur de Italia, desde donde puedes
                       conocer Europa a precios súper bajos.
                     </p>
@@ -128,7 +128,7 @@ export default function DestinoMaltaPage() {
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Tiene un clima mediterráneo con temperaturas cálidas de mayo a octubre, lo que la convierte en un
                       verano casi eterno.
                     </p>
@@ -136,14 +136,14 @@ export default function DestinoMaltaPage() {
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       El inglés es su lengua oficial, junto al maltés, y estudiarlo allí es de los más económico.
                     </p>
                   </div>
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Es un destino multicultural con población de todas partes del mundo y con buena calidad de vida.
                     </p>
                   </div>
@@ -167,8 +167,10 @@ export default function DestinoMaltaPage() {
         </section>
 
          <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-        Solicitá tu cotización
-      </h1>
+¿Querés armar tu viaje a Malta?      </h1>
+
+<h2 className="text-2xl md:text-3xl lg:text-3xl  leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
+Completá tus datos y recibí tu presupuesto personalizado en menos de 24 horas    </h2>
 
         <section className="min-h-[60vh] py-16">
         <div className="container mx-auto max-w-2xl px-4">

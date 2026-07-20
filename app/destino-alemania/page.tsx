@@ -120,7 +120,7 @@ export default function DestinoAlemaniaPage() {
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Su ubicación estratégica en Europa te permitirá viajar fácilmente a países vecinos como Francia,
                       Suiza, Países Bajos y Austria en pocas horas.
                     </p>
@@ -128,13 +128,13 @@ export default function DestinoAlemaniaPage() {
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Es un destino multicultural con ciudades llenas de estudiantes y profesionales de todo el mundo,
                       combinando modernidad con un legado histórico único.
                     </p>
                   </div>
 
-                  <div className="flex gap-4 items-start">
+                  <div className="flex gap-4 items-start text-xl">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
                     <p className="text-white leading-relaxed">
                       Aunque el alemán es oficial, muchas personas hablan inglés, facilitando la comunicación mientras
@@ -142,7 +142,7 @@ export default function DestinoAlemaniaPage() {
                     </p>
                   </div>
 
-                  <div className="flex gap-4 items-start">
+                  <div className="flex gap-4 items-start text-xl">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
                     <p className="text-white leading-relaxed">
                       Alemania ofrece una excelente calidad de vida, destacándose por su seguridad, eficiencia,
