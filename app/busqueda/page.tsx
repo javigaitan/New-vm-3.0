@@ -2,7 +2,7 @@
 
 import { useSearchParams } from "next/navigation"
 import { useState, useEffect, Suspense } from "react"
-import { MapPin, Calendar, Compass, Search, MessageCircle, GraduationCap } from "lucide-react"
+import { MapPin, Clock, Compass, Search, MessageCircle, GraduationCap } from "lucide-react"
 import { cursos, type Curso } from "@/lib/cursos-data"
 import Link from "next/link"
 import { Navbar } from "@/components/navbar"
@@ -14,7 +14,7 @@ function BusquedaContent() {
   const searchParams = useSearchParams()
   
   const [destino, setDestino] = useState(searchParams.get("destino") || "")
-  const [mes, setMes] = useState(searchParams.get("mes") || "")
+  const [duracion, setDuracion] = useState(searchParams.get("duracion") || "")
   const [busqueda, setBusqueda] = useState(searchParams.get("interes") || "")
   const [resultados, setResultados] = useState<Curso[]>([])
 
@@ -28,20 +28,26 @@ function BusquedaContent() {
       )
     }
     
+    if (duracion && duracion !== "otro") {
+      filtered = filtered.filter(curso => 
+        curso.duracion === duracion
+      )
+    }
+    
     if (busqueda && busqueda !== "otro") {
       filtered = filtered.filter(curso => 
         curso.tipo.toLowerCase().includes(busqueda.toLowerCase()) ||
         curso.nombre.toLowerCase().includes(busqueda.toLowerCase())
       )
     }
-    
+
     setResultados(filtered)
-  }, [destino, mes, busqueda])
+  }, [destino, duracion, busqueda])
 
   const handleSearch = () => {
     const params = new URLSearchParams()
     if (destino) params.append("destino", destino)
-    if (mes) params.append("mes", mes)
+    if (duracion) params.append("duracion", duracion)
     if (busqueda) params.append("interes", busqueda)
     
     window.history.pushState({}, "", `/busqueda?${params.toString()}`)
@@ -51,6 +57,11 @@ function BusquedaContent() {
     if (destino && destino !== "otro") {
       filtered = filtered.filter(curso => 
         curso.destino.toLowerCase() === destino.toLowerCase()
+      )
+    }
+    if (duracion && duracion !== "otro") {
+      filtered = filtered.filter(curso => 
+        curso.duracion === duracion
       )
     }
     if (busqueda && busqueda !== "otro") {
@@ -105,7 +116,27 @@ function BusquedaContent() {
                 </div>
               </div>
 
-            
+              {/* Duración de curso */}
+              <div className="flex items-center flex-1 border-r border-gray-200 px-4">
+                <Clock className="w-5 h-5 text-primary-vio mr-3" />
+                <div className="flex flex-col">
+                  <label className="text-xs text-gray-500 font-medium">Duración</label>
+                  <select
+                    value={duracion}
+                    onChange={(e) => setDuracion(e.target.value)}
+                    className="bg-transparent text-primary-vio font-medium focus:outline-none cursor-pointer appearance-none pr-6"
+                  >
+                    <option value="">Todas las duraciones</option>
+                    <option value="4-semanas">4 semanas</option>
+                    <option value="8-semanas">8 semanas</option>
+                    <option value="12-semanas">12 semanas</option>
+                    <option value="16-semanas">16 semanas</option>
+                    <option value="25-semanas">25 semanas</option>
+                    <option value="1-ano">1 año</option>
+                    <option value="2-anos">2 años</option>
+                  </select>
+                </div>
+              </div>
 
               {/* Qué estás buscando */}
               <div className="flex items-center flex-1 px-4">
@@ -157,7 +188,24 @@ function BusquedaContent() {
                 </select>
               </div>
 
-              
+              {/* Duración de curso */}
+              <div className="flex items-center border border-gray-200 rounded-full px-4 py-3">
+                <Clock className="w-5 h-5 text-primary-vio mr-3" />
+                <select
+                  value={duracion}
+                  onChange={(e) => setDuracion(e.target.value)}
+                  className="bg-transparent text-primary-vio font-medium focus:outline-none cursor-pointer appearance-none flex-1"
+                >
+                  <option value="">Todas las duraciones</option>
+                  <option value="4-semanas">4 semanas</option>
+                  <option value="8-semanas">8 semanas</option>
+                  <option value="12-semanas">12 semanas</option>
+                  <option value="16-semanas">16 semanas</option>
+                  <option value="25-semanas">25 semanas</option>
+                  <option value="1-ano">1 año</option>
+                  <option value="2-anos">2 años</option>
+                </select>
+              </div>
 
               {/* Qué estás buscando */}
               <div className="flex items-center border border-gray-200 rounded-full px-4 py-3">
@@ -222,9 +270,15 @@ function BusquedaContent() {
                       {/* Content */}
                       <div className="flex-1 p-6 flex flex-col justify-between">
                         <div>
-                          <div className="flex items-center gap-2 text-sm text-primary-vio/60 mb-2">
-                            <MapPin className="w-4 h-4" />
-                            <span>{curso.destino}</span>
+                          <div className="flex items-center gap-4 text-sm text-primary-vio/60 mb-2">
+                            <div className="flex items-center gap-2">
+                              <MapPin className="w-4 h-4" />
+                              <span>{curso.destino}</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                              <Clock className="w-4 h-4" />
+                              <span>{curso.duracion}</span>
+                            </div>
                           </div>
                           
                           <h3 className="text-xl font-bold text-primary-vio mb-2">
@@ -244,11 +298,11 @@ function BusquedaContent() {
                           
                           <div className="flex gap-3 w-full sm:w-auto">
                             <button
-  onClick={() => window.open(curso.url, "_blank")}
-  className="flex-1 sm:flex-none px-6 py-3 bg-primary-vio text-white font-semibold rounded-full hover:bg-primary-vio/90 transition-colors cursor-pointer"
->
-  Pedir cotización
-</button>
+                              onClick={() => window.open(curso.url, "_blank")}
+                              className="flex-1 sm:flex-none px-6 py-3 bg-primary-vio text-white font-semibold rounded-full hover:bg-primary-vio/90 transition-colors cursor-pointer"
+                            >
+                              Pedir cotización
+                            </button>
                             <a
                               href={WHATSAPP_LINK}
                               target="_blank"

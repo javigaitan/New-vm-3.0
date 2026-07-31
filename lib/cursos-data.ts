@@ -7,6 +7,7 @@ export interface Curso {
   descripcion: string
   imagen: string
   url: string
+  duracion:string
 }
 
 export const cursos: Curso[] = [
@@ -15,6 +16,7 @@ export const cursos: Curso[] = [
     nombre: "Inglés General ",
     tipo: "Curso de idiomas",
     destino: "Irlanda",
+    duracion: "4-semanas",
     precio: "USD 3.200",
     descripcion: "Programa de inglés en Dublín con inmersión total y actividades culturales incluidas.",
     imagen: "/images/dublin-irlanda.jpg",
@@ -25,6 +27,7 @@ export const cursos: Curso[] = [
     nombre: "Francés Básico",
     tipo: "Curso de idiomas",
     destino: "Francia",
+    duracion: "4-semanas",
     precio: "USD 2.800",
     descripcion: "Aprende francés en París con profesores nativos y experiencias culturales únicas.",
     imagen: "/par-s-francia-torre-eiffel-ciudad.jpg",
@@ -35,6 +38,7 @@ export const cursos: Curso[] = [
     nombre: "Work & Study ",
     tipo: "Work&Study",
     destino: "Irlanda",
+    duracion: "4-semanas",
     precio: "USD 7.800",
     descripcion: "Estudia inglés y trabaja legalmente en Irlanda. Incluye visa de trabajo y asistencia laboral.",
     imagen: "/images/galway-irlanda.jpg",
@@ -45,6 +49,8 @@ export const cursos: Curso[] = [
     nombre: "Work & Study Inglés",
     tipo: "Work&Study",
     destino: "Malta",
+        duracion: "4-semanas",
+
     precio: "USD 6.500",
     descripcion: "Combina estudio de inglés con trabajo en el paraíso mediterráneo de Malta.",
     imagen: "/images/valletta-malta.jpg",
@@ -55,6 +61,7 @@ export const cursos: Curso[] = [
     nombre: "Máster Marketing Digital",
     tipo: "Universidad",
     destino: "España",
+    duracion: "4-semanas",
     precio: "USD 5.800",
     descripcion: "En este máster adquieres una visión global para definir las estrategias y desarrollar las acciones de marketing y aprendes de forma práctica cómo poner en marcha tu plan de marketing digital para llegar así a tu público objetivo, dominando las técnicas, herramientas y competencias actuales del entorno digital.",
     imagen: "/images/barcelona-espana.jpg",
@@ -65,6 +72,7 @@ export const cursos: Curso[] = [
     nombre: "Máster Community Management y Social Media Strategy",
     tipo: "Universidad",
     destino: "España",
+    duracion: "4-semanas",
     precio: "USD 4.028",
     descripcion: "Un máster especializado que te permitirá liderar y desarrollar la estrategia de contenidos de una marca o empresa.",
     imagen: "/images/berlin-alemania.jpg",
@@ -76,6 +84,7 @@ export const cursos: Curso[] = [
     tipo: "Formacion profesional",
     destino: "España",
     precio: "USD 3.290",
+    duracion: "4-semanas",
     descripcion: "FP en gastronomía y artes culinarias en España, cuna de la cocina mediterránea.",
     imagen: "/images/valencia-espana.jpg",
     url:'/destino-espana',
@@ -86,6 +95,7 @@ export const cursos: Curso[] = [
     tipo: "Curso de idiomas",
     destino: "Malta",
     precio: "USD 3.720",
+    duracion: "4-semanas",
     descripcion: "Aprende inglés con profesores nativos y experiencias culturales únicas.",
     imagen: "/images/sliema-malta.jpg",
     url:'/destino-malta',
@@ -96,6 +106,7 @@ export const cursos: Curso[] = [
     tipo: "Otros",
     destino: "Reino Unido",
     precio: "USD 3.900",
+    duracion: "4-semanas",
     descripcion: "Experiencia cultural completa en UK con clases de inglés y actividades turísticas.",
     imagen: "/images/londres-uk.jpg",
     url:'/destino-uk',
@@ -106,6 +117,7 @@ export const cursos: Curso[] = [
     tipo: "Otros",
     destino: "Otro",
     precio: "USD 2.500",
+    duracion: "4-semanas",
     descripcion: "Programa flexible para explorar diferentes destinos y encontrar tu lugar ideal.",
     imagen: "/images/cork-irlanda.jpg",
     url:'/destino-irlanda',
@@ -116,6 +128,7 @@ export const cursos: Curso[] = [
     tipo: "Otros",
     destino: "Francia",
     precio: "USD 2.500",
+    duracion: "4-semanas",
     descripcion: "Programa flexible para explorar diferentes destinos y encontrar tu lugar ideal.",
     imagen: "/images/cork-irlanda.jpg",
     url:'/destino-francia',
@@ -140,4 +153,14 @@ export const tipoMap: Record<string, string> = {
   "work-study": "Work&Study",
   profesional: "Formacion profesional",
   otro: "Otros",
+}
+
+export const duracionMap: Record<string, string> = {
+  "4-semanas": "4 semanas",
+  "8-semanas": "8 semanas",
+  "12-semanas": "12 semanas",
+  "16-semanas": "16 semanas",
+  "25-semanas": "25 semanas",
+  "1-ano": "1 año",
+  "2-anos": "2 años",
 }

@@ -89,7 +89,7 @@ const handleLinkClick = (href: string, e: React.MouseEvent | React.TouchEvent) =
                 onClick={toggleDropdown}
                 className="text-white text-lg flex items-center focus:outline-none hover:text-secondary-green transition-colors bg-transparent"
               >
-                <span>Quiero viajar</span>
+                <span>Destinos</span>
                 <svg
                   className={`ml-2 h-4 w-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""}`}
                   fill="none"
@@ -317,8 +317,7 @@ const handleLinkClick = (href: string, e: React.MouseEvent | React.TouchEvent) =
                 onClick={toggleDropdown}
                 className="text-white text-lg focus:outline-none hover:text-secondary-green transition-colors flex items-center bg-transparent"
               >
-                Quiero viajar
-                <svg
+Destinos                <svg
                   className={`ml-2 h-4 w-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""}`}
                   fill="none"
                   stroke="currentColor"

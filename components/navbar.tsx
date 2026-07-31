@@ -109,7 +109,7 @@ export function Navbar() {
                 onClick={toggleDropdown}
                 className="text-white text-lg flex items-center focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
               >
-                <span>Quiero viajar</span>
+                <span>Destinos</span>
                 <svg
                   className={`ml-2 h-4 w-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""}`}
                   fill="none"
@@ -374,7 +374,7 @@ export function Navbar() {
                 onClick={toggleDropdown}
                 className="text-white text-lg focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline flex items-center"
               >
-                Quiero viajar
+                Destinos
                 <svg
                   className={`ml-2 h-4 w-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""}`}
                   fill="none"
