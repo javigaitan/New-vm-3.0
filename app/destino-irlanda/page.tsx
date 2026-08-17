@@ -79,15 +79,10 @@ export default function DestinoIrlandaPage() {
           <div className="absolute bottom-16 left-4 md:bottom-24 md:left-8 lg:bottom-32 lg:left-12">
             <h1 className="banner-title text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white">
               <span className="inline-flex items-center gap-3">
-                ¡Bienvenidos a Irlanda
-                <img 
-                  src="/images/BanderaIrlanda.svg" 
-                  alt="Bandera de Irlanda" 
-                  className="inline-block h-10 md:h-12 lg:h-14 xl:h-16 w-auto"
-                />
+Irlanda: tu puerta de entrada               
               </span>
               <br />
-              la isla esmeralda!
+              al mercado laboral europeo 
             </h1>
           </div>
         </section>
@@ -133,7 +128,7 @@ export default function DestinoIrlandaPage() {
         <section className="py-16 md:py-24 bg-primary-vio">
           <div className="container mx-auto px-4">
             <h2 className="mb-12 text-3xl font-bold text-white md:text-5xl text-center">
-              ¿Por qué es el destino más elegido?
+¿Por qué estudiar en Irlanda?
             </h2>
 
             <div className="flex flex-col lg:flex-row gap-12 items-center max-w-6xl mx-auto">
@@ -143,33 +138,29 @@ export default function DestinoIrlandaPage() {
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed text-xl">
-                      Su ubicación geográfica te permitirá viajar y conocer otros países de Europa en cuestión de horas
-                      y de forma económica.
+                    <p className="text-white leading-relaxed ">
+                      <strong>Ubicación:</strong> "Europa a un paso: Viajá barato a cualquier país los fines de semana."
+
                     </p>
                   </div>
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed text-xl">
-                      Es un destino multicultural con su población proveniente de todas partes del mundo y con un fuerte
-                      legado vikingo.
+                    <p className="text-white leading-relaxed ">
+                      <strong>Cultura:</strong> "Multicultural y abierta: Sentite local desde el primer día." Vive tradiciones que harán de tu experiencia un recuerdo inolvidable. 
                     </p>
                   </div>
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed text-xl">
-                      El inglés es su lengua oficial, por lo que estarás en contacto con el idioma todo el tiempo.
-                    </p>
+                    <p className="text-white leading-relaxed ">
+<strong>Idioma:</strong> "Inglés real: Sumérgete en el idioma 24/7." Es uno de los únicos países con idioma inglés oficial de la Unión Europea.                    </p>
                   </div>
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed text-xl">
-                      Tiene buena calidad de vida, siendo uno de los países más seguros del mundo y con una economía en
-                      crecimiento.
-                    </p>
+                    <p className="text-white leading-relaxed ">
+<strong>Estilo de Vida:</strong>  Una economía que te permite vivir y ahorrar. Irlanda es sede de muchas empresas tecnológicas donde encontrarás excelentes oportunidades para tu crecimiento personal.                    </p>
                   </div>
                 </div>
               </div>
