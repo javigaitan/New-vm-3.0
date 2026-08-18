@@ -126,28 +126,28 @@ export default function DestinoEspanaPage() {
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-  <p className="text-white leading-relaxed">
+  <p className="text-white leading-relaxed text-xl">
     <strong>Sin barreras de idioma:</strong> Al ser tu lengua nativa, la integración es inmediata. Sentite local desde el primer momento y potenciá tu rendimiento académico sin complicaciones de comunicación.
   </p>
 </div>
 
 <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-  <p className="text-white leading-relaxed">
+  <p className="text-white leading-relaxed text-xl">
     <strong>Excelente clima:</strong> Situada en una posición estratégica dentro de Europa, España destaca por su agradable clima mediterráneo y una cultura abierta y diversa, convirtiéndose en el destino ideal para los latinoamericanos que buscan un ambiente cálido y hospitalario.
   </p>
 </div>
 
 <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-  <p className="text-white leading-relaxed">
+  <p className="text-white leading-relaxed text-xl">
     <strong>Excelencia académica global:</strong> Formate en universidades de prestigio mundial que le darán un peso indiscutible a tu currículum.
   </p>
 </div>
 
 <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-  <p className="text-white leading-relaxed">
+  <p className="text-white leading-relaxed text-xl">
     <strong>Tu trampolín a Europa:</strong> Ubicación estratégica y excelente conectividad para que viajes por todo el continente en tus tiempos libres.
   </p>
 </div>

@@ -125,7 +125,7 @@ export default function DestinoUKPage() {
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Ciudad histórica y cultural, capital de Escocia. Famosa por su castillo, festivales
                       internacionales y un ambiente académico vibrante, con una mezcla única de tradición y modernidad.
                     </p>
@@ -133,7 +133,7 @@ export default function DestinoUKPage() {
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Capital política, financiera y cultural del Reino Unido. Centro global de negocios, moda, arte y
                       entretenimiento, con una oferta multicultural sin igual.
                     </p>
@@ -141,7 +141,7 @@ export default function DestinoUKPage() {
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Universidades de prestigio mundial como Oxford, Cambridge y UCL ofrecen programas académicos de
                       excelencia reconocidos globalmente, perfectos para tu desarrollo profesional.
                     </p>
@@ -149,7 +149,7 @@ export default function DestinoUKPage() {
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       {"Inmersión total en el inglés británico y acceso fácil a Europa para explorar otros países, combinando estudios con experiencias culturales únicas e inolvidables."}
                     </p>
                   </div>

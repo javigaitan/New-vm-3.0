@@ -115,28 +115,28 @@ y excelentes opciones laborales.            </h1>
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-            <p className="text-white leading-relaxed">
+            <p className="text-white leading-relaxed text-xl">
     <strong>Verano casi eterno:</strong> "De mayo a octubre, tu vida se desarrolla bajo el sol. La mejor calidad de vida europea sin renunciar al clima cálido."
   </p>
 </div>
 
 <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-  <p className="text-white leading-relaxed">
+  <p className="text-white leading-relaxed text-xl">
     <strong>Aprendé inglés en el mundo real:</strong> "Malta es bilingüe. Sumergite en el idioma 24/7 en un entorno natural y relajado, a una fracción del costo de otros países."
   </p>
 </div>
 
 <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-  <p className="text-white leading-relaxed">
+  <p className="text-white leading-relaxed text-xl">
     <strong>Tu base en Europa:</strong> "Conectividad total. Aprovechá tu cercanía a Italia y el resto de Europa para viajar los fines de semana a precios increíblemente bajos."
   </p>
 </div>
 
 <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-  <p className="text-white leading-relaxed">
+  <p className="text-white leading-relaxed text-xl">
     <strong>Comunidad Global:</strong> "Conocé gente de los 5 continentes. Malta es el punto de encuentro de nómadas y estudiantes de todo el mundo."
   </p>
                   </div>

@@ -6,6 +6,7 @@ import { Footer } from "@/components/footer"
 import { GraduationCap, Briefcase, Home, MapPin } from "lucide-react"
 import { ServiciosNew } from "@/components/servicios-new"
 import { useEffect } from "react"
+import { FaqSection } from "@/components/faq"
 
 
 const benefits = [
@@ -138,7 +139,7 @@ Irlanda: tu puerta de entrada
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed ">
+                    <p className="text-white leading-relaxed text-xl">
                       <strong>Ubicación:</strong> "Europa a un paso: Viajá barato a cualquier país los fines de semana."
 
                     </p>
@@ -146,20 +147,20 @@ Irlanda: tu puerta de entrada
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed ">
+                    <p className="text-white leading-relaxed text-xl">
                       <strong>Cultura:</strong> "Multicultural y abierta: Sentite local desde el primer día." Vive tradiciones que harán de tu experiencia un recuerdo inolvidable. 
                     </p>
                   </div>
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed ">
+                    <p className="text-white leading-relaxed text-xl">
 <strong>Idioma:</strong> "Inglés real: Sumérgete en el idioma 24/7." Es uno de los únicos países con idioma inglés oficial de la Unión Europea.                    </p>
                   </div>
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed ">
+                    <p className="text-white leading-relaxed text-xl">
 <strong>Estilo de Vida:</strong>  Una economía que te permite vivir y ahorrar. Irlanda es sede de muchas empresas tecnológicas donde encontrarás excelentes oportunidades para tu crecimiento personal.                    </p>
                   </div>
                 </div>
@@ -180,6 +181,8 @@ Irlanda: tu puerta de entrada
             </div>
           </div>
         </section>
+
+        <FaqSection />
 
         {/* Programs 
         <section className=" py-16 md:py-24">

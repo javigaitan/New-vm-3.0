@@ -136,7 +136,7 @@ export default function DestinoAlemaniaPage() {
 
                   <div className="flex gap-4 items-start text-xl">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Aunque el alemán es oficial, muchas personas hablan inglés, facilitando la comunicación mientras
                       aprendes un nuevo idioma.
                     </p>
@@ -144,7 +144,7 @@ export default function DestinoAlemaniaPage() {
 
                   <div className="flex gap-4 items-start text-xl">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed">
+                    <p className="text-white leading-relaxed text-xl">
                       Alemania ofrece una excelente calidad de vida, destacándose por su seguridad, eficiencia,
                       transporte de primer nivel y una economía sólida.
                     </p>
