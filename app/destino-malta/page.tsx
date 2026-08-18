@@ -56,16 +56,11 @@ export default function DestinoMaltaPage() {
           <div className="absolute bottom-16 left-4 md:bottom-24 md:left-8 lg:bottom-32 lg:left-12">
             <h1 className="banner-title text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white">
               <span className="inline-flex items-center gap-3">
-                {"¡Bienvenidos a Malta"}
-                <img
-                  src="/images/BanderaMalta.svg"
-                  alt="Bandera de Malta"
-                  className="inline-block h-10 md:h-12 lg:h-14 xl:h-16 w-auto"
-                />
+                {"Malta: Multiculturalidad con un clima ideal"}
+                
               </span>
               <br />
-              el paraíso del mediterráneo!
-            </h1>
+y excelentes opciones laborales.            </h1>
           </div>
         </section>
 
@@ -111,7 +106,7 @@ export default function DestinoMaltaPage() {
         <section className="py-16 md:py-24 bg-primary-vio">
           <div className="container mx-auto px-4">
             <h2 className="mb-12 text-3xl font-bold text-white md:text-5xl text-center">
-              ¿Por qué viajar a sus playas?
+              ¿Por qué estudiar en Malta?
             </h2>
 
             <div className="flex flex-col lg:flex-row gap-12 items-center max-w-6xl mx-auto">
@@ -120,32 +115,30 @@ export default function DestinoMaltaPage() {
                 <div className="space-y-4">
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed text-xl">
-                      Malta es un archipiélago con 3 islas principales ubicado al sur de Italia, desde donde puedes
-                      conocer Europa a precios súper bajos.
-                    </p>
-                  </div>
+            <p className="text-white leading-relaxed">
+    <strong>Verano casi eterno:</strong> "De mayo a octubre, tu vida se desarrolla bajo el sol. La mejor calidad de vida europea sin renunciar al clima cálido."
+  </p>
+</div>
 
-                  <div className="flex gap-4 items-start">
-                    <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed text-xl">
-                      Tiene un clima mediterráneo con temperaturas cálidas de mayo a octubre, lo que la convierte en un
-                      verano casi eterno.
-                    </p>
-                  </div>
+<div className="flex gap-4 items-start">
+  <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
+  <p className="text-white leading-relaxed">
+    <strong>Aprendé inglés en el mundo real:</strong> "Malta es bilingüe. Sumergite en el idioma 24/7 en un entorno natural y relajado, a una fracción del costo de otros países."
+  </p>
+</div>
 
-                  <div className="flex gap-4 items-start">
-                    <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed text-xl">
-                      El inglés es su lengua oficial, junto al maltés, y estudiarlo allí es de los más económico.
-                    </p>
-                  </div>
+<div className="flex gap-4 items-start">
+  <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
+  <p className="text-white leading-relaxed">
+    <strong>Tu base en Europa:</strong> "Conectividad total. Aprovechá tu cercanía a Italia y el resto de Europa para viajar los fines de semana a precios increíblemente bajos."
+  </p>
+</div>
 
-                  <div className="flex gap-4 items-start">
-                    <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
-                    <p className="text-white leading-relaxed text-xl">
-                      Es un destino multicultural con población de todas partes del mundo y con buena calidad de vida.
-                    </p>
+<div className="flex gap-4 items-start">
+  <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
+  <p className="text-white leading-relaxed">
+    <strong>Comunidad Global:</strong> "Conocé gente de los 5 continentes. Malta es el punto de encuentro de nómadas y estudiantes de todo el mundo."
+  </p>
                   </div>
                 </div>
               </div>
