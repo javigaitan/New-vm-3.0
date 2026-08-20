@@ -85,7 +85,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-secondary-tur transition-colors"
                 >
-                  011 7136-6335
+                  +54 9 11 7136-6335
                 </a>
               </li>
               <li className="flex items-center gap-2">
