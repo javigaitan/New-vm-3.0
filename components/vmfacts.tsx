@@ -9,13 +9,13 @@ type FactCard = {
 
 const facts: FactCard[] = [
   {
-    title: "15+ Años de Experiencia",
+    title: "10+ Años de Experiencia",
     description:
       "Nacimos de la pasión por viajar y aprender. Durante más de una década hemos perfeccionado procesos para que tu única preocupación sea disfrutar del destino.",
     icon: CalendarCheck,
   },
   {
-    title: "5,000+ Sueños Cumplidos",
+    title: "4,000+ Sueños Cumplidos",
     description:
       "Nuestra mejor carta de presentación son los miles de estudiantes que hoy tienen una carrera global gracias a nuestro asesoramiento personalizado.",
     icon: Sparkles,
