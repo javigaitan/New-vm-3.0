@@ -2,7 +2,7 @@
 
 import { useSearchParams } from "next/navigation"
 import { useState, useEffect, Suspense } from "react"
-import { MapPin, Clock, Compass, Search, MessageCircle, GraduationCap } from "lucide-react"
+import { MapPin, Clock, Compass, Search, MessageCircle, GraduationCap, School } from "lucide-react"
 import { cursos, type Curso } from "@/lib/cursos-data"
 import Link from "next/link"
 import { Navbar } from "@/components/navbar"
@@ -258,13 +258,10 @@ function BusquedaContent() {
                         <img
                           src={curso.imagen}
                           alt={curso.nombre}
+                          
                           className="w-full h-full object-cover"
                         />
-                        <div className="absolute top-3 left-3">
-                          <span className="bg-primary-turque text-primary-vio text-xs font-semibold px-3 py-1 rounded-full">
-                            {curso.tipo}
-                          </span>
-                        </div>
+                        
                       </div>
                       
                       {/* Content */}
@@ -278,6 +275,10 @@ function BusquedaContent() {
                             <div className="flex items-center gap-2">
                               <Clock className="w-4 h-4" />
                               <span>{curso.duracion}</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                              <School className="w-4 h-4" />
+                              <span>{curso.tipo}</span>
                             </div>
                           </div>
                           

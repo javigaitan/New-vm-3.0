@@ -9,6 +9,7 @@ import { useEffect } from "react"
 import { FaqSection } from "@/components/faq"
 
 
+
 const benefits = [
   {
     icon: GraduationCap,
@@ -183,6 +184,8 @@ Irlanda: tu puerta de entrada
         </section>
 
         <FaqSection />
+
+
 
         {/* Programs 
         <section className=" py-16 md:py-24">

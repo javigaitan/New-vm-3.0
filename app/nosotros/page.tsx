@@ -3,6 +3,7 @@
 import { Navbar } from "@/components/navbar"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { Footer } from "@/components/footer"
+import {VMFacts} from "@/components/vmfacts"
 
 export default function NosotrosPage() {
   return (
@@ -14,9 +15,11 @@ export default function NosotrosPage() {
           {/* Título centrado con mayor jerarquía */}
           <div className="w-full text-center mb-12">
             <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold text-primary-vio">
-              ¿Quiénes Somos?
-            </h1>
+Expertos en Transformar Futuros            </h1>
           </div>
+
+
+          <VMFacts />
 
           {/* Primer bloque: Imagen a la izquierda, texto a la derecha */}
           <div className="flex flex-col md:flex-row items-center w-full p-6 space-y-8 md:space-y-0 md:space-x-8 relative z-10">
