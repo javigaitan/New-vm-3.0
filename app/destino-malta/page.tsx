@@ -56,11 +56,10 @@ export default function DestinoMaltaPage() {
           <div className="absolute bottom-16 left-4 md:bottom-24 md:left-8 lg:bottom-32 lg:left-12">
             <h1 className="banner-title text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white">
               <span className="inline-flex items-center gap-3">
-                {"Malta: Multiculturalidad con un clima ideal"}
+                {"Malta: Multiculturalidad con un clima ideal y excelentes opciones laborales."}
                 
               </span>
-              <br />
-y excelentes opciones laborales.            </h1>
+         </h1>
           </div>
         </section>
 
