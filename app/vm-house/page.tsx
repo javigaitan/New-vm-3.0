@@ -93,7 +93,7 @@ export default function VMHousePage() {
               </p>
               <div className="mt-8">
                 <a
-                  href="https://wa.me/56927039398?text=Hola!%20Quisiera%20mas%20informacion%20sobre%20su%20residencia%20en%20Dublin"
+                  href="https://wa.me/353831139940?text=Hola!%20Quisiera%20mas%20informacion%20sobre%20su%20residencia%20en%20Dublin"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-secondari-verde hover:bg-secondari-verde/90 text-primary-vio font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
