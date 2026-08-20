@@ -25,6 +25,7 @@ export default function AhorroPage() {
       image: "/images/ahorrofoto2.png",
       imagePosition: "left",
     },
+    /* Hero Section 
     {
       icon: "/images/ahorro3.png",
       title: 'Programa "Me caso con viajar"',
@@ -33,7 +34,7 @@ export default function AhorroPage() {
       whatsappText: '¡Hola, Vaga-Mundo! Quiero más información sobre el Programa "Me caso con viajar".',
       image: "/images/ahorrofoto3.png",
       imagePosition: "right",
-    },
+    },}*/
     {
       icon: "/images/ahorro4.png",
       title: "Programa de Embajadores VM",
