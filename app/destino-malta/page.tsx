@@ -115,7 +115,7 @@ export default function DestinoMaltaPage() {
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
             <p className="text-white leading-relaxed text-xl">
-    <strong>Verano casi eterno:</strong> "De mayo a octubre, tu vida se desarrolla bajo el sol. La mejor calidad de vida europea sin renunciar al clima cálido."
+    <strong>Verano eterno:</strong> "De mayo a octubre, tu vida se desarrolla bajo el sol. La mejor calidad de vida europea sin renunciar al clima cálido."
   </p>
 </div>
 
