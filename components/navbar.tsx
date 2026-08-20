@@ -230,6 +230,15 @@ export function Navbar() {
               )}
             </li>
 
+            {/* VM House option */}
+            <li>
+              <Link href="/vm-house">
+                <button className="text-white text-lg focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
+                  VM House
+                </button>
+              </Link>
+            </li>
+
             <li>
               <Link href="/ahorro">
                 <button className="text-white text-lg focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
