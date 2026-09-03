@@ -141,7 +141,8 @@ Irlanda: tu puerta de entrada
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
                     <p className="text-white leading-relaxed text-xl">
-                      <strong>Ubicación:</strong> "Europa a un paso: Viajá barato a cualquier país los fines de semana."
+                      <strong>Europa a un paso:</strong> Olvídate de la rutina, encuentra destinos para viajar por europa por tarifas muy cómodas los fines de semana.
+
 
                     </p>
                   </div>
@@ -149,14 +150,14 @@ Irlanda: tu puerta de entrada
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
                     <p className="text-white leading-relaxed text-xl">
-                      <strong>Cultura:</strong> "Multicultural y abierta: Sentite local desde el primer día." Vive tradiciones que harán de tu experiencia un recuerdo inolvidable. 
-                    </p>
+                      <strong>Multicultural y abierta:</strong> Sentite local desde el primer día." Vive tradiciones que harán de tu experiencia un recuerdo inolvidable.</p>
                   </div>
 
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
                     <p className="text-white leading-relaxed text-xl">
-<strong>Idioma:</strong> "Inglés real: Sumérgete en el idioma 24/7." Es uno de los únicos países con idioma inglés oficial de la Unión Europea.                    </p>
+<strong>Inglés real:</strong> Sumérgete en el idioma 24/7." Es uno de los destinos con idioma inglés oficial de la Unión Europea.
+                    </p>
                   </div>
 
                   <div className="flex gap-4 items-start">

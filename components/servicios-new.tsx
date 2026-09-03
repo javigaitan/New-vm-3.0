@@ -16,7 +16,7 @@ const services = [
     href: "/work&study",
   },
   {
-    title: "Posgrados y Carreras Universitarias",
+    title: "Carreras Universitarias, Posgrados y Masters",
     image: "/images/24.jpg",
     href: "/carreras-universitarias",
   },
@@ -45,7 +45,7 @@ export function ServiciosNew() {
   return (
     <div className="container mx-auto px-4 pt-10 pb-20">
       <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-Descubrí los programas y servicios de Vaga Mundo      </h1>
+Descubre los programas y servicios de Vaga Mundo      </h1>
 
       <div className="flex flex-wrap justify-center mt-8 gap-4 lg:gap-0">
         {services.map((service, index) => (

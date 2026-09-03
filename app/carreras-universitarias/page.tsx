@@ -70,7 +70,7 @@ export default function CarrerasUniversitariasPage() {
       <main>
         <div className="container mx-auto px-4 py-7">
           <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left lg:hidden">
-            <h1 className="text-4xl font-bold mb-4 text-primary-vio">Posgrados y Carreras Universitarias</h1>
+            <h1 className="text-4xl font-bold mb-4 text-primary-vio">Carreras Universitarias, Posgrados y Masters</h1>
           </div>
 
           <div className="flex flex-col md:flex-col lg:flex-row items-center lg:items-start">
@@ -87,8 +87,7 @@ export default function CarrerasUniversitariasPage() {
             <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
               {/* Title for desktop - shows next to text */}
               <h1 className="text-4xl font-bold mb-4 text-primary-vio hidden lg:block">
-                Posgrados y Carreras Universitarias
-              </h1>
+Carreras Universitarias, Posgrados y Masters              </h1>
 
               <p className="text-lg text-text">
                 Este tipo de experiencia es ideal para quienes tienen un buen nivel de inglés y desean comenzar una

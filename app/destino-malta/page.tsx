@@ -5,6 +5,8 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 import { Footer } from "@/components/footer"
 import { ServiciosNew } from "@/components/servicios-new"
 import { useEffect } from "react"
+import { FaqSection } from "@/components/faq-malta"
+
 
 export default function DestinoMaltaPage() {
   useEffect(() => {
@@ -56,7 +58,7 @@ export default function DestinoMaltaPage() {
           <div className="absolute bottom-16 left-4 md:bottom-24 md:left-8 lg:bottom-32 lg:left-12">
             <h1 className="banner-title text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white">
               <span className="inline-flex items-center gap-3">
-                {"Malta: Multiculturalidad con un clima ideal y excelentes opciones laborales."}
+                {" Malta: vive en Europa, aprende inglés y disfruta de una vida junto al Mediterráneo"}
                 
               </span>
          </h1>
@@ -115,28 +117,31 @@ export default function DestinoMaltaPage() {
                   <div className="flex gap-4 items-start">
                     <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
             <p className="text-white leading-relaxed text-xl">
-    <strong>Verano eterno:</strong> "De mayo a octubre, tu vida se desarrolla bajo el sol. La mejor calidad de vida europea sin renunciar al clima cálido."
+    <strong>Sol y calidad de vida:</strong> De mayo a octubre, disfruta de días largos, clima cálido y vida al aire libre. Vive la experiencia europea sin renunciar al sol y al Mediterráneo.
+
   </p>
 </div>
 
 <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
   <p className="text-white leading-relaxed text-xl">
-    <strong>Aprendé inglés en el mundo real:</strong> "Malta es bilingüe. Sumergite en el idioma 24/7 en un entorno natural y relajado, a una fracción del costo de otros países."
+    <strong>Inglés en el mundo real:</strong> Malta es un país bilingüe. Practica inglés todos los días, dentro y fuera del aula, en un entorno internacional donde aprender se convierte en parte de tu vida.
+
   </p>
 </div>
 
 <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
   <p className="text-white leading-relaxed text-xl">
-    <strong>Tu base en Europa:</strong> "Conectividad total. Aprovechá tu cercanía a Italia y el resto de Europa para viajar los fines de semana a precios increíblemente bajos."
+    <strong>Tu base en Europa:</strong> Vive en el corazón del Mediterráneo y aprovecha la conexión de Malta con Italia y otros destinos europeos para descubrir nuevos países durante tu experiencia.
   </p>
 </div>
 
 <div className="flex gap-4 items-start">
   <img src="/images/vector-check.png" alt="" className="w-5 h-5 flex-shrink-0 mt-1" />
   <p className="text-white leading-relaxed text-xl">
-    <strong>Comunidad Global:</strong> "Conocé gente de los 5 continentes. Malta es el punto de encuentro de nómadas y estudiantes de todo el mundo."
+    <strong>Una comunidad global:</strong> Conocé personas de los cinco continentes. Malta reúne estudiantes, viajeros y jóvenes profesionales de todo el mundo en una comunidad verdaderamente internacional.
+
   </p>
                   </div>
                 </div>
@@ -157,12 +162,15 @@ export default function DestinoMaltaPage() {
             </div>
           </div>
         </section>
+                <FaqSection />
+        
 
          <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-¿Querés armar tu viaje a Malta?      </h1>
+¿Quieres empezar tu experiencia en Malta?      </h1>
 
 <h2 className="text-2xl md:text-3xl lg:text-3xl  leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-Completá tus datos y recibí tu presupuesto personalizado en menos de 24 horas    </h2>
+Dejanos tus datos y recibe una propuesta personalizada para tu viaje en menos de 24 horas.
+    </h2>
 
         <section className="min-h-[60vh] py-16">
         <div className="container mx-auto max-w-2xl px-4">

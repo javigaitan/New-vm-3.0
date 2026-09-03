@@ -46,5 +46,37 @@ export const benefits: Benefit[] = [
     image: beneficioImg,
     href: "",
   },
+
+  {
+    id: "alojamiento",
+    title: "Alojamiento Garantizado",
+    description: "Llega a Irlanda a VM House residencia estudiantil de Vaga Mundo",
+    image: beneficioImg,
+    href: "",
+  },
+
+  {
+    id: "ingles",
+    title: "Inglés pre-viaje sin costo",
+    description: "Desarrolla tu fluidez con clases grupales y gana confianza en el idioma antes de llegar a tu destino",
+    image: beneficioImg,
+    href: "",
+  },
+
+  {
+    id: "comunidad",
+    title: "Comunidad Activa",
+    description: "Únete desde el primer día a una red dinámica de más de 4,000 estudiantes que se encuentran realizando su experiencia académica internacional",
+    image: beneficioImg,
+    href: "",
+  },
+
+  {
+    id: "precio",
+    title: "Mismo precio garantizado",
+    description: "Viaja, estudia y trabaja con el sistema Vaga-Mundo sin costos adicionales. Respaldado por su trayectoria e importante red de escuelas aliadas en el exterior, Vaga-Mundo es financiado directamente por las instituciones educativas y no por los estudiantes",
+    image: beneficioImg,
+    href: "",
+  },
   
 ]

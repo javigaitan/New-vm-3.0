@@ -255,14 +255,7 @@ export function Navbar() {
               </Link>
             </li>
 
-            {/* VM House option */}
-            <li>
-              <Link href="/vm-house">
-                <button className="text-white text-lg focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
-                  VM House
-                </button>
-              </Link>
-            </li>
+            
 
             <li>
               <Link href="/blogs">
@@ -503,6 +496,14 @@ export function Navbar() {
                 </div>
               )}
             </li>
+             {/* VM House option */}
+            <li>
+              <Link href="/vm-house" onClick={() => setShowMenu(false)}>
+                <button className="focus:outline-none text-white text-left text-lg focus:ring-2 focus:ring-gray-800 hover:underline">
+                  VM House
+                </button>
+              </Link>
+            </li>
 
             <li>
               <Link href="/ahorro" onClick={() => setShowMenu(false)}>
@@ -520,14 +521,7 @@ export function Navbar() {
               </Link>
             </li>
 
-            {/* VM House option */}
-            <li>
-              <Link href="/vm-house" onClick={() => setShowMenu(false)}>
-                <button className="focus:outline-none text-white text-left text-lg focus:ring-2 focus:ring-gray-800 hover:underline">
-                  VM House
-                </button>
-              </Link>
-            </li>
+           
 
             <li>
               <Link href="/blogs" onClick={() => setShowMenu(false)}>

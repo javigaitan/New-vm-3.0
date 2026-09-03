@@ -21,9 +21,9 @@ const facts: FactCard[] = [
     icon: Sparkles,
   },
   {
-    title: "Un Equipo que te Entiende",
+    title: "Nacimos de nuestra propia historia",
     description:
-      "No somos solo consultores; somos viajeros que ya vivieron la experiencia de emigrar, estudiar y trabajar fuera. Entendemos tus miedos y objetivos mejor que nadie.",
+      "Antes de asesorar a otros, fuimos nosotros quienes preparamos las maletas para emigrar, estudiar y trabajar fuera. Creamos este proyecto precisamente para ofrecer el acompañamiento que a nosotros nos habría gustado tener cuando empezamos.",
     icon: Users,
   },
 ]

@@ -3,7 +3,7 @@
 import { useSearchParams } from "next/navigation"
 import { useState, useEffect, Suspense } from "react"
 import { MapPin, Clock, Compass, Search, MessageCircle, GraduationCap, School } from "lucide-react"
-import { cursos, type Curso } from "@/lib/cursos-data"
+import { cursos, tipoMap, type Curso } from "@/lib/cursos-data"
 import Link from "next/link"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
@@ -35,11 +35,12 @@ function BusquedaContent() {
     }
     
     if (busqueda && busqueda !== "otro") {
-      filtered = filtered.filter(curso => 
-        curso.tipo.toLowerCase().includes(busqueda.toLowerCase()) ||
-        curso.nombre.toLowerCase().includes(busqueda.toLowerCase())
-      )
-    }
+  const tipoSeleccionado = tipoMap[busqueda]
+
+  filtered = filtered.filter(curso =>
+    curso.tipo.toLowerCase() === tipoSeleccionado.toLowerCase()
+  )
+}
 
     setResultados(filtered)
   }, [destino, duracion, busqueda])

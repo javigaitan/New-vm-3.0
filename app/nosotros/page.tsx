@@ -32,11 +32,7 @@ Expertos en Transformar Futuros            </h1>
             </div>
             <div className="w-full md:w-3/5 text-center md:text-left mb-4 md:mb-0">
               <p className="lg:text-2xl text-xl text-primary-vio font-regular">
-                Somos una agencia especializada en{" "}
-                <span className="font-bold text-secondari-verde">programas de estudio en el extranjero</span> con más de{" "}
-                <span className="font-bold text-secondari-verde">15 años de experiencia</span>. Nuestro compromiso es
-                hacer realidad los sueños de estudiantes que desean expandir sus horizontes a través de experiencias
-                educativas internacionales de calidad.
+                Somos una agencia especializada en programas de estudio en el extranjero con más de 10 años de experiencia. Nuestro compromiso es hacer realidad los sueños de estudiantes que desean expandir sus horizontes a través de experiencias educativas internacionales de calidad.
               </p>
             </div>
           </div>
@@ -56,10 +52,8 @@ Expertos en Transformar Futuros            </h1>
             <div className="absolute inset-0 flex items-center justify-center px-4 md:px-8 lg:px-16">
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-10 lg:p-12 max-w-4xl border border-white/20 shadow-2xl">
                 <p className="text-white text-center text-lg md:text-xl lg:text-2xl font-medium leading-relaxed">
-                  Desde nuestros inicios, hemos ayudado a más de{" "}
-                  <span className="font-bold text-secondari-verde">5,000 estudiantes</span> a cumplir sus metas de estudiar en
-                  destinos como Irlanda, Malta y España. Nuestro equipo de expertos brinda asesoría personalizada en cada
-                  etapa del proceso, desde la selección del programa hasta la adaptación en el destino elegido.
+                  Desde nuestros inicios, hemos ayudado a más de 4,000 estudiantes a cumplir sus metas de estudiar en destinos como Irlanda, Malta y España. Nuestro equipo de expertos brinda asesoría personalizada en cada etapa del proceso, desde la selección del programa hasta la adaptación en el destino elegido.
+
                 </p>
               </div>
             </div>

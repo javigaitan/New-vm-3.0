@@ -148,8 +148,7 @@ export default function WorkStudyPage() {
                   <div className="absolute bottom-0 left-0 w-full">
                     <Link href="/carreras-universitarias">
                       <button className="transition-transform duration-300 transform hover:scale-105 w-full hover:bg-primary-turq transition duration-150 text-base font-semibold leading-none text-center text-gray-800 py-6 bg-white rounded-b-lg shadow-lg focus:outline-none cursor-pointer">
-                        Posgrados y Carreras Universitarias
-                      </button>
+Carreras Universitarias, Posgrados y Masters                      </button>
                     </Link>
                   </div>
                 </div>
