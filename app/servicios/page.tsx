@@ -110,7 +110,7 @@ export default function ServiciosPage() {
                         </div>
 
                         <Link
-                          href={`https://wa.me/541171366335/?text=${encodeURIComponent(service.whatsappText)}`}
+                          href={`https://wa.me/5491171366335/?text=${encodeURIComponent(service.whatsappText)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
