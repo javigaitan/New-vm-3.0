@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/navbar"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { Footer } from "@/components/footer"
-import Vagabot from "@/components/vagabot"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -50,7 +49,6 @@ export default function AhorroPage() {
     <>
       <Navbar />
       <WhatsAppButton />
-      <Vagabot />
       <main className="min-h-screen">
         {/* Hero Section */}
         <section className="relative rounded-b-[50px] bg-primary-vio py-24 text-white overflow-hidden">
