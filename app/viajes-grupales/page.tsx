@@ -95,7 +95,7 @@ export default function ViajesGrupalesPage() {
               </p>
 
               <div className="pt-10 pb-8">
-                <Link href="https://wa.me/541170585095/?text=¡Hola,%20Vaga-Mundo!%20Quiero%20cotizar%20mis%20viajes%20grupales!">
+                <Link href="https://wa.me/5493513935872/?text=¡Hola,%20Vaga-Mundo!%20Quiero%20cotizar%20mis%20viajes%20grupales!">
                   <button className="bg-secondari-verde text-primary-vio rounded-full text-xl font-medium font-semibold py-3 px-8 transition-all duration-300 hover:scale-105 cursor-pointer">
                     Solicitar más información
                   </button>

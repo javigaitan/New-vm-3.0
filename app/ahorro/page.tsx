@@ -106,7 +106,7 @@ export default function AhorroPage() {
                       </div>
 
                       <Link
-                        href={`https://wa.me/5491171366335?text=${encodeURIComponent(program.whatsappText)}`}
+                        href={`https://wa.me/5493513935872?text=${encodeURIComponent(program.whatsappText)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >

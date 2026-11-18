@@ -54,7 +54,7 @@ export default function PreparatoriosUniversidadPage() {
               </p>
 
               <div className="pt-10 pb-8">
-                <Link href="https://wa.me/541170585095/?text=¡Hola,%20Vaga-Mundo!%20Quiero%20cotizar%20mi%20programa%20preparatorio%20universitario!">
+                <Link href="https://wa.me/5493513935872/?text=¡Hola,%20Vaga-Mundo!%20Quiero%20cotizar%20mi%20programa%20preparatorio%20universitario!">
                   <button className="bg-secondari-verde text-primary-vio rounded-full text-xl font-medium font-semibold py-3 px-8 transition-all duration-300 hover:scale-105 cursor-pointer">
                     Solicitar más información
                   </button>

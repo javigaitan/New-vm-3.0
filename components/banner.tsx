@@ -43,7 +43,7 @@ Vive, estudia y trabaja en el extranjero
           </h2>
 
           <div className="py-4 md:inline-block md:py-8 md:pl-8 lg:pl-0">
-            <Link href="https://wa.me/1170585095/?text=Hola%20Vaga-Mundo,%20quisiera%20explorar%20opciones%20educativas%20en%20el%20extranjero">
+            <Link href="https://wa.me/5493513935872/?text=Hola%20Vaga-Mundo,%20quisiera%20explorar%20opciones%20educativas%20en%20el%20extranjero">
               <Button
   size="lg"
   className="
