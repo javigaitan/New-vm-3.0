@@ -9,16 +9,22 @@ const services = [
     title: "Cursos de Idiomas",
     image: "/images/IMG_4486.png",
     href: "/curso-de-idiomas",
+    description:
+      "Aprende o perfecciona inglés, español, francés o alemán en escuelas acreditadas de Irlanda, Malta, Reino Unido, España, Francia y Alemania. Cursos intensivos o de larga duración, para todos los niveles y edades, con alojamiento y asesoramiento en cada paso.",
   },
   {
     title: "Estudia y Trabaja en el Exterior",
     image: "/images/Dublin AY Students in Lounge(1).JPG",
-    href: "/work&study",
+    href: "/estudia-y-trabaja",
+    description:
+      "Estudia un idioma y trabaja medio tiempo para cubrir tus gastos. Te ayudamos con la elección de escuela, el visado de estudiante, el alojamiento y la búsqueda de empleo en destinos como Irlanda y Malta, sin límite de edad ni nivel previo de inglés.",
   },
   {
     title: "Carreras Universitarias, Posgrados y Masters",
     image: "/images/24.jpg",
     href: "/carreras-universitarias",
+    description:
+      "Accede a carreras de grado, posgrados y másters en universidades de Europa. Te orientamos en la elección del programa, los requisitos de admisión y las opciones de financiación para que tu título internacional sea una realidad.",
   },
 ]
 
@@ -44,8 +50,9 @@ export function ServiciosNew() {
 
   return (
     <div className="container mx-auto px-4 pt-10 pb-20">
-      <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-Descubre los programas y servicios de Vaga Mundo      </h1>
+      <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
+Descubre los programas y servicios de Vaga-Mundo
+      </h2>
 
       <div className="flex flex-wrap justify-center mt-8 gap-4 lg:gap-0">
         {services.map((service, index) => (
@@ -69,6 +76,9 @@ Descubre los programas y servicios de Vaga Mundo      </h1>
                 </Link>
               </div>
             </div>
+            <p className="mt-4 text-base text-text leading-relaxed text-center lg:text-left">
+              {service.description}
+            </p>
           </div>
         ))}
       </div>

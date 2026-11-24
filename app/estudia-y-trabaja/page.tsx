@@ -83,9 +83,9 @@ export default function WorkStudyPage() {
             {/* Text section */}
             <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
               {/* Title for desktop - shows next to text */}
-              <h1 className="text-4xl font-bold mb-4 text-primary-vio hidden lg:block">
+              <p aria-hidden="true" className="text-4xl font-bold mb-4 text-primary-vio hidden lg:block">
                 Estudia y Trabaja en el Exterior
-              </h1>
+              </p>
 
               <p className="text-lg text-text">
                 Esta experiencia es ideal para quienes quieren aprender o mejorar un idioma mientras tienen la

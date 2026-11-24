@@ -89,25 +89,31 @@ export function Partners() {
         <div className="relative overflow-hidden">
           <div className="flex gap-8 animate-scroll">
             {/* Duplicate partners array for seamless loop */}
-            {[...partners, ...partners].map((partner, index) => (
+            {/* La segunda copia es solo visual (para el bucle continuo): se oculta a buscadores y lectores de pantalla */}
+            {[...partners, ...partners].map((partner, index) => {
+              const isCopy = index >= partners.length
+              return (
               <Link
                 key={index}
                 href={partner.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-hidden={isCopy || undefined}
+                tabIndex={isCopy ? -1 : undefined}
                 className="group flex-shrink-0 cursor-pointer p-8 transition-transform duration-300 hover:scale-105"
               >
                 <div className="flex h-32 w-64 items-center justify-center">
                   <Image
                     src={partner.logo || "/placeholder.svg"}
-                    alt={partner.name}
+                    alt={isCopy ? "" : partner.name}
                     width={250}
                     height={250}
                     className="max-h-full max-w-full object-contain grayscale transition-all duration-300 group-hover:grayscale-0"
                   />
                 </div>
               </Link>
-            ))}
+              )
+            })}
           </div>
         </div>
       </div>

@@ -165,8 +165,8 @@ export default function DestinoMaltaPage() {
                 <FaqSection />
         
 
-         <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-¿Quieres empezar tu experiencia en Malta?      </h1>
+         <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
+¿Quieres empezar tu experiencia en Malta?      </h2>
 
 <h2 className="text-2xl md:text-3xl lg:text-3xl  leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
 Dejanos tus datos y recibe una propuesta personalizada para tu viaje en menos de 24 horas.

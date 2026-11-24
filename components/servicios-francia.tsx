@@ -62,7 +62,7 @@ export function ServiciosFrancia() {
                   className="w-full h-auto rounded-lg mx-auto"
                 />
                 <div className="absolute bottom-0 left-0 w-full">
-                  <Link href="/work&study">
+                  <Link href="/estudia-y-trabaja">
                     <button className="transition-transform duration-300 transform hover:scale-105 w-full hover:bg-primary-turque transition duration-150 text-base font-semibold leading-none text-center text-gray-800 py-6 bg-white rounded-b-lg shadow-lg focus:outline-none cursor-pointer">
                       Estudia y Trabaja en el Exterior
                     </button>

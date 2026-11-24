@@ -170,8 +170,8 @@ export default function DestinoEspanaPage() {
           </div>
         </section>
 
-        <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
-Armá tu plan a España Hoy      </h1>
+        <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
+Armá tu plan a España Hoy      </h2>
 <h2 className="text-2xl md:text-3xl lg:text-3xl  leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
 Completá tus datos y recibe tu presupuesto personalizado    </h2>
 

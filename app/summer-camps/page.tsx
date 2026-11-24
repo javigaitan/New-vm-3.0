@@ -79,7 +79,7 @@ export default function SummerCampsPage() {
             {/* Text section */}
             <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
               {/* Title for desktop - shows next to text */}
-              <h1 className="text-4xl font-bold mb-4 text-primary-vio hidden lg:block">Summer Camps</h1>
+              <p aria-hidden="true" className="text-4xl font-bold mb-4 text-primary-vio hidden lg:block">Summer Camps</p>
 
               <p className="text-lg text-text">
                 Este tipo de experiencia es ideal para quienes disponen de poco tiempo para viajar o desean integrar el

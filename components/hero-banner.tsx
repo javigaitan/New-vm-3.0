@@ -23,8 +23,13 @@ export function HeroBanner() {
       {/* Contenido centrado */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 pt-20">
         {/* Título principal */}
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center mb-4 drop-shadow-lg">
-          Tu futuro internacional empieza hoy
+        <h1 className="text-center mb-4 drop-shadow-lg">
+          <span className="block text-xs sm:text-sm md:text-lg lg:text-xl font-semibold uppercase tracking-wider md:tracking-widest text-white/90 mb-3">
+            Agencia de estudios y trabajo en el extranjero
+          </span>
+          <span className="block text-5xl md:text-6xl lg:text-7xl font-bold text-white">
+            Tu futuro internacional empieza hoy
+          </span>
         </h1>
 
         {/* Subtítulo */}

@@ -83,7 +83,7 @@ export default function CursoDeIdiomasPage() {
             {/* Text section */}
             <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
               {/* Title for desktop - shows next to text */}
-              <h1 className="text-4xl font-bold mb-4 text-primary-vio hidden lg:block">Cursos de Idiomas</h1>
+              <p aria-hidden="true" className="text-4xl font-bold mb-4 text-primary-vio hidden lg:block">Cursos de Idiomas</p>
 
               <p className="text-lg text-text">
                 Este tipo de experiencia es ideal para quienes disponen de poco tiempo para viajar o desean integrar el
@@ -125,7 +125,7 @@ export default function CursoDeIdiomasPage() {
                     className="w-full h-auto rounded-lg mx-auto"
                   />
                   <div className="absolute bottom-0 left-0 w-full">
-                    <Link href="/work&study">
+                    <Link href="/estudia-y-trabaja">
                       <button className="transition-transform duration-300 transform hover:scale-105 w-full hover:bg-primary-turq transition duration-150 text-base font-semibold leading-none text-center text-gray-800 py-6 bg-white rounded-b-lg shadow-lg focus:outline-none cursor-pointer">
                         Estudia y Trabaja en el Exterior
                       </button>
