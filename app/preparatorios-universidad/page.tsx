@@ -36,9 +36,9 @@ export default function PreparatoriosUniversidadPage() {
             {/* Text section */}
             <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
               {/* Title for desktop - shows next to text */}
-              <h1 className="text-4xl font-bold mb-4 text-primary-vio hidden lg:block">
+              <p aria-hidden="true" className="text-4xl font-bold mb-4 text-primary-vio hidden lg:block">
                 Preparatorios a la Universidad
-              </h1>
+              </p>
 
               <p className="text-lg text-text">
                 Los programas preparatorios están diseñados para estudiantes internacionales que desean prepararse para

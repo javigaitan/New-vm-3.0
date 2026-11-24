@@ -11,7 +11,7 @@ export function Banner() {
           <div className="relative h-[500px] overflow-hidden rounded-bl-[100px]">
             <Image
               src="/images/foto-20banner-201.svg"
-              alt="Estudiantes de Viaga Mundo"
+              alt="Estudiantes de Vaga-Mundo"
               fill
               className="object-cover"
               priority
@@ -25,7 +25,7 @@ export function Banner() {
           <div className="relative h-[500px] overflow-hidden rounded-b-[50px]">
             <Image
               src="/images/bannerbackok-201.svg"
-              alt="Estudiantes de Viaga Mundo"
+              alt="Estudiantes de Vaga-Mundo"
               fill
               className="object-cover"
               priority

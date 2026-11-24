@@ -170,9 +170,9 @@ export default function DestinoUKPage() {
           </div>
         </section>
 
-         <h1 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
+         <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold leading-tight text-primary-vio mt-6 text-center mx-3 lg:mx-0">
         Solicitá tu cotización
-      </h1>
+      </h2>
 
         <section className="min-h-[60vh] py-16">
         <div className="container mx-auto max-w-2xl px-4">

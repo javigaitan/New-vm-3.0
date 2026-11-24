@@ -75,12 +75,12 @@ export function Navbar() {
       <div className="relative z-50 bg-primary-vio px-7 py-6">
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo */}
-          <h1 className="md:w-2/12 cursor-pointer" ref={logoRef}>
+          <div className="md:w-2/12 cursor-pointer" ref={logoRef}>
             <div className="mr-10 flex items-center">
               <Link href="/">
                 <Image
                   src="/images/logoturquesa.png"
-                  alt="Viaga Mundo Logo"
+                  alt="Vaga-Mundo"
                   width={120}
                   height={40}
                   className="h-auto w-24 md:w-auto md:h-auto"
@@ -88,7 +88,7 @@ export function Navbar() {
                 />
               </Link>
             </div>
-          </h1>
+          </div>
 
           {/* Desktop Menu */}
           <ul
@@ -321,7 +321,7 @@ export function Navbar() {
             <Link href="/">
               <Image
                 src="/images/logoturquesa.png"
-                alt="Viaga Mundo Logo"
+                alt="Vaga-Mundo"
                 width={96}
                 height={32}
                 className="w-24 h-auto"

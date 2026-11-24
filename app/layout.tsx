@@ -3,9 +3,13 @@ import Script from "next/script"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Vaga-Mundo – Estás a punto de vivir la historia más increíble de tu vida",
+  metadataBase: new URL("https://vaga-mundo.com"),
+  title: {
+    default: "Vaga-Mundo | Agencia de estudios y trabajo en el extranjero",
+    template: "%s | Vaga-Mundo",
+  },
   description:
-    "Descubre oportunidades de estudio y trabajo en Irlanda, Malta, Francia y más. Vaga-Mundo te acompaña en cada paso de tu viaje educativo.",
+    "Agencia de estudios y trabajo en el extranjero con sede en Dublín. Cursos de idiomas, work & study y carreras en Irlanda, Malta, España, Reino Unido y más.",
   keywords: [
     "viajar",
     "estudiar",

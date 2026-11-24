@@ -68,7 +68,7 @@ export default function EstudiaTrabajaPage() {
                   size="lg"
                   className="bg-secondary-tur hover:bg-secondary-tur/90 text-primary-vio font-bold"
                 >
-                  <Link href="/work&study">Ver programas</Link>
+                  <Link href="/estudia-y-trabaja">Ver programas</Link>
                 </Button>
               </div>
             </div>
